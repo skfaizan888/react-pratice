@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { StatusTodoList } from './Components/Todolist/StatusTodoList';
+import logo from "./logo.svg";
+import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-     <StatusTodoList/>
+    
+      <StatusTodoList/>
+
     </div>
   );
 }
